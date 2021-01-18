@@ -1,0 +1,34 @@
+[
+   {
+      "NAME": "Melophobia",
+      "BAND": "Cage The Elephant",
+      "RELEASE": "October 8 2013",
+      "LENGTH": "37:23",
+      "GENRE": "Alternative Rock",
+      "PRICE": 19.99
+   },
+   {
+       "NAME": "..I Care Because You Do",
+       "BAND": "Aphex Twin",
+       "RELEASE": "April 24 1995",
+       "LENGTH": "63:49",
+       "GENRE": "Trip Hop",
+       "PRICE": 19.99
+    },
+   {
+       "NAME": "Ok Computer",
+       "BAND": "Radiohead",
+       "RELEASE": "May 21 1997",
+       "LENGTH": "53:21",
+       "GENRE": "Alternative Rock",
+       "PRICE": 19.99
+    },
+   {
+       "NAME": "In Rainbows",
+       "BAND": "Radiohead",
+       "RELEASE": "October 10 2007",
+       "LENGTH": "42:39",
+       "GENRE": "Art Rock",
+       "PRICE": 19.99
+    }
+]

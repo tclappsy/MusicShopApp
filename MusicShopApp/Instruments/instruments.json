@@ -1,0 +1,146 @@
+[
+   {
+      "Model":"#0144502515",
+      "Name":"Player Stratocaster",
+      "Price": 700.00,
+      "Color": "White",
+      "Fretboard": "Maple",
+      "Desc": "The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound—bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation—the Player Stratocaster is packed with authentic Fender feel and style."
+   },
+   {
+      "Model":"#0144502506",
+      "Name":"Player Stratocaster",
+      "Price": 700.00,
+      "Color": "Black",
+      "Fretboard": "Maple",
+      "Desc": "The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound—bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation—the Player Stratocaster is packed with authentic Fender feel and style."
+   },
+   {
+      "Model":"#0144502513",
+      "Name":"Player Stratocaster",
+      "Price": 700.00,
+      "Color": "Tidepool",
+      "Fretboard": "Maple",
+      "Desc": "The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound—bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation—the Player Stratocaster is packed with authentic Fender feel and style."
+   },
+   {
+      "Model":"#0145212500",
+      "Name":"Player Telecaster",
+      "Price": 700.00,
+      "Color": "3-Color Sunburst",
+      "Fretboard": "Pau Ferro",
+      "Desc": "Bold, innovative and rugged, the Player Telecaster is pure Fender, through and through. The feel, the style and, most importantly, the sound—they’re all there, waiting for you to make them whisper or wail for your music."
+   },
+   {
+      "Model":"#0145212506",
+      "Name":"Player Telecaster",
+      "Price": 700.00,
+      "Color": "Black",
+      "Fretboard": "Pau Ferro",
+      "Desc": "Bold, innovative and rugged, the Player Telecaster is pure Fender, through and through. The feel, the style and, most importantly, the sound—they’re all there, waiting for you to make them whisper or wail for your music."
+   },
+   {
+      "Model":"#0145212550",
+      "Name":"Player Telecaster",
+      "Price": 700.00,
+      "Color": "Butterscotch Blonde",
+      "Fretboard": "Pau Ferro",
+      "Desc": "Bold, innovative and rugged, the Player Telecaster is pure Fender, through and through. The feel, the style and, most importantly, the sound—they’re all there, waiting for you to make them whisper or wail for your music."
+   },
+   {
+      "Model":"#0113940761",
+      "Name":"American Professional II Telecaster",
+      "Price": 1500.00,
+      "Color": "Dark Night",
+      "Fretboard": "Rosewood",
+      "Desc": "The American Professional II Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player."
+   },
+   {
+      "Model":"#0113940755",
+      "Name":"American Professional II Telecaster",
+      "Price": 1500.00,
+      "Color": "Mercury",
+      "Fretboard": "Rosewood",
+      "Desc": "The American Professional II Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player."
+   },
+   {
+      "Model":"#0118050712",
+      "Name":"American Ultra Jazz Master",
+      "Price": 2000.00,
+      "Color": "Ultrablast",
+      "Fretboard": "Rosewood",
+      "Desc": "The American Ultra Jazzmaster features a unique “Modern D” neck profile for hours of playing comfort, and the tapered neck heel allows easy access to the highest register. A speedy 10”-14” compound-radius fingerboard with 21 medium-jumbo frets means effortless and accurate soloing."
+   },
+   {
+      "Model":"#0113970755",
+      "Name":"American Professional II Jazz Master",
+      "Price": 1600.00,
+      "Color": "Mercury",
+      "Fretboard": "Rosewood",
+      "Desc": "New V-Mod II Jazzmaster single-coil pickups are more articulate than ever while delivering the sparkle and chime the Jazzmaster is known for. The bridge pickup has a tap function that allows both a powerful, throaty sound or a lower-output vintage sound."
+   },
+   {
+      "Model": "#0115210302",
+      "Name":"American Performer Jazzmaster",
+      "Price": 1250.00,
+      "Color": "Satin Lake Placid Blue",
+      "Fretboard": "Rosewood",
+      "Desc": "Born in Corona, California, the elegant American Performer Jazzmaster delivers the exceptional tone and refined feel you expect from an authentic Fender—with new player-oriented features that make it even more inspiring to play."
+   },
+   {
+      "Model": "#999",
+      "Name":"Gibson ES-345",
+      "Price": 3300.00,
+      "Color": "Red",
+      "Fretboard": "Spruce",
+      "Desc": "The Gibson ES-345 boasts a number of aesthetic enhancements over the flagship ES-335. Crafted with a maple centerblock and quarter-sawn Adirondack spruce bracing, players will be impressed by the lightweight feel and expanded range of tonal capabilities."
+   },
+   {
+      "Model": "#1010",
+      "Name":"Les Paul Modern",
+      "Price": 2800.00,
+      "Color": "Blue",
+      "Fretboard": "Spruce",
+      "Desc": "The new Gibson Les Paul™ Modern incorporates many contemporary updates that players have embraced such as a lighter-weight body and innovative SlimTaper™ neck with asymmetrical profile. The Modern fingerboard is crafted with genuine ebony and a compound radius for lower, and cleaner action."
+   },
+   {
+      "Model": "#888",
+      "Name":"Jimi Hendrix™ 1967 SG Custom",
+      "Price": 10000.00,
+      "Color": "White",
+      "Fretboard": "Spruce",
+      "Desc": "Jimi Hendrix is widely regarded as the most innovative guitarist of the rock era. This limited edition Gibson Custom Shop 1967 SG™ Custom accurately replicates the right-handed guitar (strung lefty) that Hendrix played on The Dick Cavett Show on September 9, 1969 - one of Jimi's rare television interviews and performances."
+   },
+   {
+      "Model": "#99",
+      "Name":"Martin D-18E",
+      "Price": 3700.00,
+      "Color": "Tan",
+      "Fretboard": "Spruce",
+      "Desc": "The D-18E 2020 is a limited edition version of the historic 14-fret D-18 which officially joined Martin’s lineup in 1934. Like its namesake, the D-18E 2020 is constructed with a Sitka spruce top and genuine mahogany back and sides along with all of the reimagined standard series elements that, combined, offer supreme playability and legendary Martin tone."
+   },
+   {
+      "Model": "#88",
+      "Name":"Martin 000-28",
+      "Price": 5200.00,
+      "Color": "Tan",
+      "Fretboard": "Spruce",
+      "Desc": "The 000-28 Modern Deluxe is a new take on Martin Vintage. This guitar is packed with custom features and modern technology that you have to see, feel, and hear for yourself."
+   },
+   {
+      "Model": "#77",
+      "Name":"Taylor 214ce-K DLX",
+      "Price": 1500.00,
+      "Color": "Tan",
+      "Fretboard": "Spruce",
+      "Desc": "The distinctive 200 Series Deluxe category is loaded with high-end performance appeal. The Grand Auditorium 214ce-K DLX features beautiful layered koa back and sides, a solid Sitka spruce top, a full-gloss body, white binding, Small Diamond fretboard inlays, Venetian cutaway, Taylor Expression System 2 electronics, and a Taylor standard hardshell case."
+   },
+   {
+      "Model": "#1200",
+      "Name":"Taylor T5z Classic DLX",
+      "Price": 2200.00,
+      "Color": "Brown",
+      "Fretboard": "Spruce",
+      "Desc": "This deluxe edition of our mahogany-top T5z Classic sports an aesthetic upgrade to a rich all-gloss body and shaded edgeburst (entire guitar), adding refined character to the guitar’s vintage look."
+   }
+]

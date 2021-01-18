@@ -3,18 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08344FA2712B915AD66DE89E /* Pods_MusicShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07844760EEC75E58F88C44E7 /* Pods_MusicShopAppTests.framework */; };
+		0ADA508F42175F7BC419AA00 /* Pods_MusicShopApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681591F324C00E628ABC93A8 /* Pods_MusicShopApp.framework */; };
+		9843FC663FDE22795DF92375 /* Pods_MusicShopApp_MusicShopAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A969DF13607B3AF066326635 /* Pods_MusicShopApp_MusicShopAppUITests.framework */; };
+		F91AC14E25804AF3006C6802 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC136258049AD006C6802 /* CartModel.swift */; };
+		F92968F92568917900115496 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92968F82568917900115496 /* LoginViewController.swift */; };
+		F9296913256893E800115496 /* InstrumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9296912256893E800115496 /* InstrumentTableViewController.swift */; };
+		F93EC535257EB89100B7A48B /* CartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EC534257EB89100B7A48B /* CartTableView.swift */; };
+		F960CB96258A803D00F25CD2 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = F960CB95258A803C00F25CD2 /* cover.png */; };
+		F999C1C82576AB4C0087E47F /* coords.json in Resources */ = {isa = PBXBuildFile; fileRef = F999C1C72576AB4C0087E47F /* coords.json */; };
+		F9A2314125697C02006014B5 /* instruments.json in Resources */ = {isa = PBXBuildFile; fileRef = F9A2314025697C02006014B5 /* instruments.json */; };
+		F9A2314925698443006014B5 /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2314825698443006014B5 /* InstrumentModel.swift */; };
+		F9A2314E25698956006014B5 /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2314D25698956006014B5 /* InstrumentTableViewCell.swift */; };
+		F9A231E62569A99A006014B5 /* mercuryTele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231DB2569A999006014B5 /* mercuryTele.jpg */; };
+		F9A231E72569A99A006014B5 /* 3colorTele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231DC2569A999006014B5 /* 3colorTele.jpg */; };
+		F9A231E82569A99A006014B5 /* blackStrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231DD2569A999006014B5 /* blackStrat.jpg */; };
+		F9A231E92569A99A006014B5 /* blueJazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231DE2569A999006014B5 /* blueJazz.jpg */; };
+		F9A231EA2569A99A006014B5 /* whiteStrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231DF2569A999006014B5 /* whiteStrat.jpg */; };
+		F9A231EB2569A99A006014B5 /* blacktele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E02569A999006014B5 /* blacktele.jpg */; };
+		F9A231EC2569A99A006014B5 /* darknighttele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E12569A999006014B5 /* darknighttele.jpg */; };
+		F9A231ED2569A99A006014B5 /* blueStrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E22569A999006014B5 /* blueStrat.jpg */; };
+		F9A231EE2569A99A006014B5 /* tanTele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E32569A999006014B5 /* tanTele.jpg */; };
+		F9A231EF2569A99A006014B5 /* ultraBlastJazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E42569A999006014B5 /* ultraBlastJazz.jpg */; };
+		F9A231F02569A99A006014B5 /* greyjazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A231E52569A99A006014B5 /* greyjazz.jpg */; };
+		F9A2320A2569AF06006014B5 /* InstrumentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A232092569AF06006014B5 /* InstrumentInfoViewController.swift */; };
 		F9A5CC5625687EEB00577266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5CC5525687EEB00577266 /* AppDelegate.swift */; };
 		F9A5CC5825687EEB00577266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5CC5725687EEB00577266 /* SceneDelegate.swift */; };
-		F9A5CC5A25687EEB00577266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5CC5925687EEB00577266 /* ViewController.swift */; };
 		F9A5CC5D25687EEB00577266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A5CC5B25687EEB00577266 /* Main.storyboard */; };
 		F9A5CC5F25687EEE00577266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A5CC5E25687EEE00577266 /* Assets.xcassets */; };
 		F9A5CC6225687EEE00577266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A5CC6025687EEE00577266 /* LaunchScreen.storyboard */; };
 		F9A5CC6D25687EEE00577266 /* MusicShopAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5CC6C25687EEE00577266 /* MusicShopAppTests.swift */; };
 		F9A5CC7825687EEE00577266 /* MusicShopAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5CC7725687EEE00577266 /* MusicShopAppUITests.swift */; };
+		F9A5CC8F2568804700577266 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9A5CC8E2568804700577266 /* GoogleService-Info.plist */; };
+		F9BA24E525689B8A00098C6D /* clipart-guitar-symbol-10.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BA24E425689B8A00098C6D /* clipart-guitar-symbol-10.png */; };
+		F9BFD23025899A9E008E4D35 /* lespaul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD22B25899A9E008E4D35 /* lespaul.jpg */; };
+		F9BFD23125899A9E008E4D35 /* jimmy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD22C25899A9E008E4D35 /* jimmy.jpg */; };
+		F9BFD23225899A9E008E4D35 /* gibson345.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD22D25899A9E008E4D35 /* gibson345.jpg */; };
+		F9BFD23325899A9E008E4D35 /* martin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD22E25899A9E008E4D35 /* martin1.jpg */; };
+		F9BFD23425899A9E008E4D35 /* martin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD22F25899A9E008E4D35 /* martin2.jpg */; };
+		F9BFD23925899FCA008E4D35 /* taylor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD23825899FCA008E4D35 /* taylor.jpg */; };
+		F9BFD23E2589A00F008E4D35 /* taylorT5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD23D2589A00F008E4D35 /* taylorT5.jpg */; };
+		F9BFD24E2589A44E008E4D35 /* icons8-rock_music.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD2482589A44E008E4D35 /* icons8-rock_music.png */; };
+		F9BFD24F2589A44E008E4D35 /* icons8-apple_map.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD2492589A44E008E4D35 /* icons8-apple_map.png */; };
+		F9BFD2502589A44E008E4D35 /* icons8-music_album.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD24A2589A44E008E4D35 /* icons8-music_album.png */; };
+		F9BFD2512589A44E008E4D35 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD24B2589A44E008E4D35 /* guitar.png */; };
+		F9BFD2522589A44E008E4D35 /* icons8-worldwide_location_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD24C2589A44E008E4D35 /* icons8-worldwide_location_filled.png */; };
+		F9BFD2532589A44E008E4D35 /* icons8-shopping_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD24D2589A44E008E4D35 /* icons8-shopping_cart.png */; };
+		F9BFD25D2589A45C008E4D35 /* icons8-apple_map.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD2572589A45C008E4D35 /* icons8-apple_map.png */; };
+		F9BFD25E2589A45C008E4D35 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD2582589A45C008E4D35 /* guitar.png */; };
+		F9BFD25F2589A45C008E4D35 /* icons8-worldwide_location_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD2592589A45C008E4D35 /* icons8-worldwide_location_filled.png */; };
+		F9BFD2602589A45C008E4D35 /* icons8-rock_music.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD25A2589A45C008E4D35 /* icons8-rock_music.png */; };
+		F9BFD2612589A45C008E4D35 /* icons8-music_album.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD25B2589A45C008E4D35 /* icons8-music_album.png */; };
+		F9BFD2622589A45C008E4D35 /* icons8-shopping_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BFD25C2589A45C008E4D35 /* icons8-shopping_cart.png */; };
+		F9D888C3258164FD00CFEAEA /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D888C2258164FD00CFEAEA /* CartCell.swift */; };
+		F9FFC818256F17630090C774 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFC817256F17630090C774 /* MapModel.swift */; };
+		F9FFC81D256F196D0090C774 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFC81C256F196D0090C774 /* MapAnnotation.swift */; };
+		F9FFC822256F1BC30090C774 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFC821256F1BC30090C774 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +83,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07844760EEC75E58F88C44E7 /* Pods_MusicShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDC44743A5352FAE474CDE3 /* Pods-MusicShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopAppTests.release.xcconfig"; path = "Target Support Files/Pods-MusicShopAppTests/Pods-MusicShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D76DC877330FFC6F9E38CC7 /* Pods-MusicShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopApp.debug.xcconfig"; path = "Target Support Files/Pods-MusicShopApp/Pods-MusicShopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		681591F324C00E628ABC93A8 /* Pods_MusicShopApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicShopApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A947CF07A9395BDC7234CA7 /* Pods-MusicShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopApp.release.xcconfig"; path = "Target Support Files/Pods-MusicShopApp/Pods-MusicShopApp.release.xcconfig"; sourceTree = "<group>"; };
+		8AD229D57EBC321D4BE0C3C0 /* Pods-MusicShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MusicShopAppTests/Pods-MusicShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF491D22307C2A3492BAD3E /* Pods-MusicShopApp-MusicShopAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopApp-MusicShopAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MusicShopApp-MusicShopAppUITests/Pods-MusicShopApp-MusicShopAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		930CA682BD29C9483EB3C84F /* Pods-MusicShopApp-MusicShopAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicShopApp-MusicShopAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MusicShopApp-MusicShopAppUITests/Pods-MusicShopApp-MusicShopAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A969DF13607B3AF066326635 /* Pods_MusicShopApp_MusicShopAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicShopApp_MusicShopAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91AC136258049AD006C6802 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		F92968F82568917900115496 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F9296912256893E800115496 /* InstrumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewController.swift; sourceTree = "<group>"; };
+		F93EC534257EB89100B7A48B /* CartTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableView.swift; sourceTree = "<group>"; };
+		F960CB95258A803C00F25CD2 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover.png; path = MusicShopApp/cover.png; sourceTree = SOURCE_ROOT; };
+		F999C1C72576AB4C0087E47F /* coords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coords.json; sourceTree = "<group>"; };
+		F9A2314025697C02006014B5 /* instruments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = instruments.json; sourceTree = "<group>"; };
+		F9A2314825698443006014B5 /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
+		F9A2314D25698956006014B5 /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
+		F9A231DB2569A999006014B5 /* mercuryTele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mercuryTele.jpg; path = MusicShopApp/Instruments/logos/mercuryTele.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231DC2569A999006014B5 /* 3colorTele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3colorTele.jpg; path = MusicShopApp/Instruments/logos/3colorTele.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231DD2569A999006014B5 /* blackStrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blackStrat.jpg; path = MusicShopApp/Instruments/logos/blackStrat.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231DE2569A999006014B5 /* blueJazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueJazz.jpg; path = MusicShopApp/Instruments/logos/blueJazz.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231DF2569A999006014B5 /* whiteStrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whiteStrat.jpg; path = MusicShopApp/Instruments/logos/whiteStrat.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E02569A999006014B5 /* blacktele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blacktele.jpg; path = MusicShopApp/Instruments/logos/blacktele.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E12569A999006014B5 /* darknighttele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = darknighttele.jpg; path = MusicShopApp/Instruments/logos/darknighttele.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E22569A999006014B5 /* blueStrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueStrat.jpg; path = MusicShopApp/Instruments/logos/blueStrat.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E32569A999006014B5 /* tanTele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tanTele.jpg; path = MusicShopApp/Instruments/logos/tanTele.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E42569A999006014B5 /* ultraBlastJazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ultraBlastJazz.jpg; path = MusicShopApp/Instruments/logos/ultraBlastJazz.jpg; sourceTree = SOURCE_ROOT; };
+		F9A231E52569A99A006014B5 /* greyjazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greyjazz.jpg; path = MusicShopApp/Instruments/logos/greyjazz.jpg; sourceTree = SOURCE_ROOT; };
+		F9A232092569AF06006014B5 /* InstrumentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentInfoViewController.swift; sourceTree = "<group>"; };
 		F9A5CC5225687EEB00577266 /* MusicShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A5CC5525687EEB00577266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A5CC5725687EEB00577266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9A5CC5925687EEB00577266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9A5CC5C25687EEB00577266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9A5CC5E25687EEE00577266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9A5CC6125687EEE00577266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +126,31 @@
 		F9A5CC7325687EEE00577266 /* MusicShopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicShopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A5CC7725687EEE00577266 /* MusicShopAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicShopAppUITests.swift; sourceTree = "<group>"; };
 		F9A5CC7925687EEE00577266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A5CC8E2568804700577266 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9BA24E425689B8A00098C6D /* clipart-guitar-symbol-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipart-guitar-symbol-10.png"; sourceTree = "<group>"; };
+		F9BFD22B25899A9E008E4D35 /* lespaul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lespaul.jpg; path = MusicShopApp/Instruments/logos/lespaul.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD22C25899A9E008E4D35 /* jimmy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jimmy.jpg; path = MusicShopApp/Instruments/logos/jimmy.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD22D25899A9E008E4D35 /* gibson345.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gibson345.jpg; path = MusicShopApp/Instruments/logos/gibson345.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD22E25899A9E008E4D35 /* martin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = martin1.jpg; path = MusicShopApp/Instruments/logos/martin1.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD22F25899A9E008E4D35 /* martin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = martin2.jpg; path = MusicShopApp/Instruments/logos/martin2.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD23825899FCA008E4D35 /* taylor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taylor.jpg; path = MusicShopApp/Instruments/logos/taylor.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD23D2589A00F008E4D35 /* taylorT5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taylorT5.jpg; path = MusicShopApp/Instruments/logos/taylorT5.jpg; sourceTree = SOURCE_ROOT; };
+		F9BFD2482589A44E008E4D35 /* icons8-rock_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-rock_music.png"; path = "MusicShopApp/tab bar images/icons8-rock_music.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD2492589A44E008E4D35 /* icons8-apple_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-apple_map.png"; path = "MusicShopApp/tab bar images/icons8-apple_map.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD24A2589A44E008E4D35 /* icons8-music_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-music_album.png"; path = "MusicShopApp/tab bar images/icons8-music_album.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD24B2589A44E008E4D35 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitar.png; path = "MusicShopApp/tab bar images/guitar.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD24C2589A44E008E4D35 /* icons8-worldwide_location_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-worldwide_location_filled.png"; path = "MusicShopApp/tab bar images/icons8-worldwide_location_filled.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD24D2589A44E008E4D35 /* icons8-shopping_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-shopping_cart.png"; path = "MusicShopApp/tab bar images/icons8-shopping_cart.png"; sourceTree = SOURCE_ROOT; };
+		F9BFD2572589A45C008E4D35 /* icons8-apple_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-apple_map.png"; sourceTree = "<group>"; };
+		F9BFD2582589A45C008E4D35 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
+		F9BFD2592589A45C008E4D35 /* icons8-worldwide_location_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-worldwide_location_filled.png"; sourceTree = "<group>"; };
+		F9BFD25A2589A45C008E4D35 /* icons8-rock_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-rock_music.png"; sourceTree = "<group>"; };
+		F9BFD25B2589A45C008E4D35 /* icons8-music_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-music_album.png"; sourceTree = "<group>"; };
+		F9BFD25C2589A45C008E4D35 /* icons8-shopping_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shopping_cart.png"; sourceTree = "<group>"; };
+		F9D888C2258164FD00CFEAEA /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		F9FFC817256F17630090C774 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		F9FFC81C256F196D0090C774 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		F9FFC821256F1BC30090C774 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA508F42175F7BC419AA00 /* Pods_MusicShopApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08344FA2712B915AD66DE89E /* Pods_MusicShopAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +174,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9843FC663FDE22795DF92375 /* Pods_MusicShopApp_MusicShopAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		177D2C4C19940ACCF1595E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D76DC877330FFC6F9E38CC7 /* Pods-MusicShopApp.debug.xcconfig */,
+				7A947CF07A9395BDC7234CA7 /* Pods-MusicShopApp.release.xcconfig */,
+				8DF491D22307C2A3492BAD3E /* Pods-MusicShopApp-MusicShopAppUITests.debug.xcconfig */,
+				930CA682BD29C9483EB3C84F /* Pods-MusicShopApp-MusicShopAppUITests.release.xcconfig */,
+				8AD229D57EBC321D4BE0C3C0 /* Pods-MusicShopAppTests.debug.xcconfig */,
+				1BDC44743A5352FAE474CDE3 /* Pods-MusicShopAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72F0E679DF4E27BEA3469113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681591F324C00E628ABC93A8 /* Pods_MusicShopApp.framework */,
+				A969DF13607B3AF066326635 /* Pods_MusicShopApp_MusicShopAppUITests.framework */,
+				07844760EEC75E58F88C44E7 /* Pods_MusicShopAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91AC17025804D08006C6802 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F91AC136258049AD006C6802 /* CartModel.swift */,
+				F93EC534257EB89100B7A48B /* CartTableView.swift */,
+				F9D888C2258164FD00CFEAEA /* CartCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		F9A231A525699DB4006014B5 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				F9A231DA2569A982006014B5 /* images */,
+				F9A2314025697C02006014B5 /* instruments.json */,
+				F9296912256893E800115496 /* InstrumentTableViewController.swift */,
+				F9A2314825698443006014B5 /* InstrumentModel.swift */,
+				F9A2314D25698956006014B5 /* InstrumentTableViewCell.swift */,
+				F9A232092569AF06006014B5 /* InstrumentInfoViewController.swift */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		F9A231A625699DCE006014B5 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFD24B2589A44E008E4D35 /* guitar.png */,
+				F9BFD2492589A44E008E4D35 /* icons8-apple_map.png */,
+				F9BFD24A2589A44E008E4D35 /* icons8-music_album.png */,
+				F9BFD2482589A44E008E4D35 /* icons8-rock_music.png */,
+				F9BFD24D2589A44E008E4D35 /* icons8-shopping_cart.png */,
+				F9BFD24C2589A44E008E4D35 /* icons8-worldwide_location_filled.png */,
+				F960CB95258A803C00F25CD2 /* cover.png */,
+				F92968F82568917900115496 /* LoginViewController.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		F9A231DA2569A982006014B5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F9A231DC2569A999006014B5 /* 3colorTele.jpg */,
+				F9BFD22D25899A9E008E4D35 /* gibson345.jpg */,
+				F9BFD22C25899A9E008E4D35 /* jimmy.jpg */,
+				F9BFD22B25899A9E008E4D35 /* lespaul.jpg */,
+				F9BFD22E25899A9E008E4D35 /* martin1.jpg */,
+				F9BFD22F25899A9E008E4D35 /* martin2.jpg */,
+				F9A231DD2569A999006014B5 /* blackStrat.jpg */,
+				F9A231E02569A999006014B5 /* blacktele.jpg */,
+				F9BFD23825899FCA008E4D35 /* taylor.jpg */,
+				F9A231DE2569A999006014B5 /* blueJazz.jpg */,
+				F9BFD23D2589A00F008E4D35 /* taylorT5.jpg */,
+				F9A231E22569A999006014B5 /* blueStrat.jpg */,
+				F9A231E12569A999006014B5 /* darknighttele.jpg */,
+				F9A231E52569A99A006014B5 /* greyjazz.jpg */,
+				F9A231DB2569A999006014B5 /* mercuryTele.jpg */,
+				F9A231E32569A999006014B5 /* tanTele.jpg */,
+				F9A231E42569A999006014B5 /* ultraBlastJazz.jpg */,
+				F9A231DF2569A999006014B5 /* whiteStrat.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		F9A5CC4925687EEB00577266 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +274,8 @@
 				F9A5CC6B25687EEE00577266 /* MusicShopAppTests */,
 				F9A5CC7625687EEE00577266 /* MusicShopAppUITests */,
 				F9A5CC5325687EEB00577266 /* Products */,
+				177D2C4C19940ACCF1595E48 /* Pods */,
+				72F0E679DF4E27BEA3469113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +294,17 @@
 			children = (
 				F9A5CC5525687EEB00577266 /* AppDelegate.swift */,
 				F9A5CC5725687EEB00577266 /* SceneDelegate.swift */,
-				F9A5CC5925687EEB00577266 /* ViewController.swift */,
 				F9A5CC5B25687EEB00577266 /* Main.storyboard */,
+				F9D90C1E256EF19000C2BDED /* Map */,
+				F9A231A525699DB4006014B5 /* Instruments */,
+				F9A231A625699DCE006014B5 /* LoginController */,
+				F9D90C09256EEEAC00C2BDED /* tab bar images */,
+				F91AC17025804D08006C6802 /* Cart */,
 				F9A5CC5E25687EEE00577266 /* Assets.xcassets */,
 				F9A5CC6025687EEE00577266 /* LaunchScreen.storyboard */,
 				F9A5CC6325687EEE00577266 /* Info.plist */,
+				F9A5CC8E2568804700577266 /* GoogleService-Info.plist */,
+				F9BA24E425689B8A00098C6D /* clipart-guitar-symbol-10.png */,
 			);
 			path = MusicShopApp;
 			sourceTree = "<group>";
@@ -128,6 +327,30 @@
 			path = MusicShopAppUITests;
 			sourceTree = "<group>";
 		};
+		F9D90C09256EEEAC00C2BDED /* tab bar images */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFD2582589A45C008E4D35 /* guitar.png */,
+				F9BFD2572589A45C008E4D35 /* icons8-apple_map.png */,
+				F9BFD25B2589A45C008E4D35 /* icons8-music_album.png */,
+				F9BFD25A2589A45C008E4D35 /* icons8-rock_music.png */,
+				F9BFD25C2589A45C008E4D35 /* icons8-shopping_cart.png */,
+				F9BFD2592589A45C008E4D35 /* icons8-worldwide_location_filled.png */,
+			);
+			path = "tab bar images";
+			sourceTree = "<group>";
+		};
+		F9D90C1E256EF19000C2BDED /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F999C1C72576AB4C0087E47F /* coords.json */,
+				F9FFC817256F17630090C774 /* MapModel.swift */,
+				F9FFC81C256F196D0090C774 /* MapAnnotation.swift */,
+				F9FFC821256F1BC30090C774 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9A5CC7C25687EEE00577266 /* Build configuration list for PBXNativeTarget "MusicShopApp" */;
 			buildPhases = (
+				A8413B6E78CFE79E2D30C728 /* [CP] Check Pods Manifest.lock */,
 				F9A5CC4E25687EEB00577266 /* Sources */,
 				F9A5CC4F25687EEB00577266 /* Frameworks */,
 				F9A5CC5025687EEB00577266 /* Resources */,
+				0EB27FB3BBDC245028E59381 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +377,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9A5CC7F25687EEE00577266 /* Build configuration list for PBXNativeTarget "MusicShopAppTests" */;
 			buildPhases = (
+				8DB4E719DAEC1F98EE9103C5 /* [CP] Check Pods Manifest.lock */,
 				F9A5CC6425687EEE00577266 /* Sources */,
 				F9A5CC6525687EEE00577266 /* Frameworks */,
 				F9A5CC6625687EEE00577266 /* Resources */,
@@ -170,9 +396,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9A5CC8225687EEE00577266 /* Build configuration list for PBXNativeTarget "MusicShopAppUITests" */;
 			buildPhases = (
+				9901B3667ED3A42D80FBE485 /* [CP] Check Pods Manifest.lock */,
 				F9A5CC6F25687EEE00577266 /* Sources */,
 				F9A5CC7025687EEE00577266 /* Frameworks */,
 				F9A5CC7125687EEE00577266 /* Resources */,
+				A0B78916A1F3423F621E9BBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +459,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BFD2512589A44E008E4D35 /* guitar.png in Resources */,
+				F9A231ED2569A99A006014B5 /* blueStrat.jpg in Resources */,
+				F9A2314125697C02006014B5 /* instruments.json in Resources */,
+				F9BFD24E2589A44E008E4D35 /* icons8-rock_music.png in Resources */,
+				F9BFD23025899A9E008E4D35 /* lespaul.jpg in Resources */,
+				F9BFD25E2589A45C008E4D35 /* guitar.png in Resources */,
+				F9BFD23425899A9E008E4D35 /* martin2.jpg in Resources */,
+				F9A231E72569A99A006014B5 /* 3colorTele.jpg in Resources */,
+				F9A231E92569A99A006014B5 /* blueJazz.jpg in Resources */,
+				F9BFD2602589A45C008E4D35 /* icons8-rock_music.png in Resources */,
+				F9A231EE2569A99A006014B5 /* tanTele.jpg in Resources */,
+				F9BFD2612589A45C008E4D35 /* icons8-music_album.png in Resources */,
+				F9A231EB2569A99A006014B5 /* blacktele.jpg in Resources */,
+				F9A231E62569A99A006014B5 /* mercuryTele.jpg in Resources */,
+				F9BA24E525689B8A00098C6D /* clipart-guitar-symbol-10.png in Resources */,
+				F9BFD23125899A9E008E4D35 /* jimmy.jpg in Resources */,
+				F9A231F02569A99A006014B5 /* greyjazz.jpg in Resources */,
+				F9A231E82569A99A006014B5 /* blackStrat.jpg in Resources */,
+				F9A231EA2569A99A006014B5 /* whiteStrat.jpg in Resources */,
 				F9A5CC6225687EEE00577266 /* LaunchScreen.storyboard in Resources */,
+				F9BFD2532589A44E008E4D35 /* icons8-shopping_cart.png in Resources */,
+				F9BFD23925899FCA008E4D35 /* taylor.jpg in Resources */,
+				F9BFD25F2589A45C008E4D35 /* icons8-worldwide_location_filled.png in Resources */,
+				F9BFD23E2589A00F008E4D35 /* taylorT5.jpg in Resources */,
+				F9A5CC8F2568804700577266 /* GoogleService-Info.plist in Resources */,
+				F9BFD2502589A44E008E4D35 /* icons8-music_album.png in Resources */,
+				F9BFD23325899A9E008E4D35 /* martin1.jpg in Resources */,
+				F9BFD25D2589A45C008E4D35 /* icons8-apple_map.png in Resources */,
+				F9BFD24F2589A44E008E4D35 /* icons8-apple_map.png in Resources */,
+				F960CB96258A803D00F25CD2 /* cover.png in Resources */,
 				F9A5CC5F25687EEE00577266 /* Assets.xcassets in Resources */,
+				F9BFD2622589A45C008E4D35 /* icons8-shopping_cart.png in Resources */,
 				F9A5CC5D25687EEB00577266 /* Main.storyboard in Resources */,
+				F9A231EF2569A99A006014B5 /* ultraBlastJazz.jpg in Resources */,
+				F9BFD23225899A9E008E4D35 /* gibson345.jpg in Resources */,
+				F999C1C82576AB4C0087E47F /* coords.json in Resources */,
+				F9BFD2522589A44E008E4D35 /* icons8-worldwide_location_filled.png in Resources */,
+				F9A231EC2569A99A006014B5 /* darknighttele.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +516,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EB27FB3BBDC245028E59381 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp/Pods-MusicShopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp/Pods-MusicShopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp/Pods-MusicShopApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB4E719DAEC1F98EE9103C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicShopAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9901B3667ED3A42D80FBE485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicShopApp-MusicShopAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B78916A1F3423F621E9BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp-MusicShopAppUITests/Pods-MusicShopApp-MusicShopAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp-MusicShopAppUITests/Pods-MusicShopApp-MusicShopAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MusicShopApp-MusicShopAppUITests/Pods-MusicShopApp-MusicShopAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8413B6E78CFE79E2D30C728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicShopApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9A5CC4E25687EEB00577266 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A5CC5A25687EEB00577266 /* ViewController.swift in Sources */,
+				F9A2320A2569AF06006014B5 /* InstrumentInfoViewController.swift in Sources */,
+				F92968F92568917900115496 /* LoginViewController.swift in Sources */,
 				F9A5CC5625687EEB00577266 /* AppDelegate.swift in Sources */,
+				F9FFC81D256F196D0090C774 /* MapAnnotation.swift in Sources */,
+				F91AC14E25804AF3006C6802 /* CartModel.swift in Sources */,
+				F9A2314E25698956006014B5 /* InstrumentTableViewCell.swift in Sources */,
+				F9FFC822256F1BC30090C774 /* MapViewController.swift in Sources */,
+				F9FFC818256F17630090C774 /* MapModel.swift in Sources */,
+				F9D888C3258164FD00CFEAEA /* CartCell.swift in Sources */,
+				F9296913256893E800115496 /* InstrumentTableViewController.swift in Sources */,
+				F9A2314925698443006014B5 /* InstrumentModel.swift in Sources */,
 				F9A5CC5825687EEB00577266 /* SceneDelegate.swift in Sources */,
+				F93EC535257EB89100B7A48B /* CartTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +809,7 @@
 		};
 		F9A5CC7D25687EEE00577266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D76DC877330FFC6F9E38CC7 /* Pods-MusicShopApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +828,7 @@
 		};
 		F9A5CC7E25687EEE00577266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A947CF07A9395BDC7234CA7 /* Pods-MusicShopApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +847,7 @@
 		};
 		F9A5CC8025687EEE00577266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD229D57EBC321D4BE0C3C0 /* Pods-MusicShopAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +869,7 @@
 		};
 		F9A5CC8125687EEE00577266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDC44743A5352FAE474CDE3 /* Pods-MusicShopAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +891,7 @@
 		};
 		F9A5CC8325687EEE00577266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF491D22307C2A3492BAD3E /* Pods-MusicShopApp-MusicShopAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +911,7 @@
 		};
 		F9A5CC8425687EEE00577266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930CA682BD29C9483EB3C84F /* Pods-MusicShopApp-MusicShopAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
